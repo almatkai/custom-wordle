@@ -3,7 +3,7 @@
   "name": "custom-wordle",
   "title": "Custom Wordle",
   "description": "Get a link to play wordle with your own word",
-  "icon": "custom-wordle-icon.png",
+  "icon": "assets/custom-wordle-icon.png",
   "author": "almatkai",
   "categories": [
     "Fun"
