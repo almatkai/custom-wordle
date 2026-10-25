@@ -1,0 +1,491 @@
+{
+  "sourceSha": "5c7c4792f534a45001e7b71b1b41ead825914f80",
+  "originalSha": "6734d85992290066fd31a7f5bee3cca3d3545a1a",
+  "betaSha": "fd300e276356587726566026f072563eb9c34cb1",
+  "originalAuthor": "pallav_agarwal",
+  "originalContributorsListed": false,
+  "ownMaintainer": "almatkai",
+  "aggregateDeclaredSPDX": "MIT AND Apache-2.0",
+  "note": "Aggregate of published package/source declarations; preserve all unmodified license texts and TypeScript ThirdPartyNoticeText, including incorporated material notices. No grant is inferred for any missing extension-local license.",
+  "files": [
+    {
+      "path": "fixtures/own/.eslintrc.json",
+      "bytes": 46,
+      "sha256": "739c28ed0495cec767903956a808561ca22d332ecb214ce609d63a82b678d516",
+      "source": "https://github.com/almatkai/custom-wordle",
+      "revision": "5c7c4792f534a45001e7b71b1b41ead825914f80",
+      "sourcePath": ".eslintrc.json"
+    },
+    {
+      "path": "fixtures/own/.gitignore",
+      "bytes": 68,
+      "sha256": "b027adcbb6131ef49be335e9a699657351ca3d5bb2b474379634d1714f5a585b",
+      "source": "https://github.com/almatkai/custom-wordle",
+      "revision": "5c7c4792f534a45001e7b71b1b41ead825914f80",
+      "sourcePath": ".gitignore"
+    },
+    {
+      "path": "fixtures/own/.prettierrc",
+      "bytes": 48,
+      "sha256": "af858765de11954366be23467b95bae5e1a86818411c6723df7542cea9ffd521",
+      "source": "https://github.com/almatkai/custom-wordle",
+      "revision": "5c7c4792f534a45001e7b71b1b41ead825914f80",
+      "sourcePath": ".prettierrc"
+    },
+    {
+      "path": "fixtures/own/CHANGELOG.md",
+      "bytes": 83,
+      "sha256": "8a609dfef1f6053dcbe56d5d9fa86eae10412215b90c011c68ffdf7353690209",
+      "source": "https://github.com/almatkai/custom-wordle",
+      "revision": "5c7c4792f534a45001e7b71b1b41ead825914f80",
+      "sourcePath": "CHANGELOG.md"
+    },
+    {
+      "path": "fixtures/own/LICENSE",
+      "bytes": 1087,
+      "sha256": "1d7dbdbcd4fe14dfa08334fab20bffad23c1290f195792a3a4420dadf9912f81",
+      "source": "https://github.com/almatkai/custom-wordle",
+      "revision": "5c7c4792f534a45001e7b71b1b41ead825914f80",
+      "sourcePath": "LICENSE"
+    },
+    {
+      "path": "fixtures/own/README.md",
+      "bytes": 155,
+      "sha256": "da264120bf73ca11db24174c75a3069cc40f59121e49d8fba236d258d783670a",
+      "source": "https://github.com/almatkai/custom-wordle",
+      "revision": "5c7c4792f534a45001e7b71b1b41ead825914f80",
+      "sourcePath": "README.md"
+    },
+    {
+      "path": "fixtures/own/assets/custom-wordle-icon.png",
+      "bytes": 19722,
+      "sha256": "d4033620dc53983df5721e784708f14c93d5fdc84ba64f882a14c71566278705",
+      "source": "https://github.com/almatkai/custom-wordle",
+      "revision": "5c7c4792f534a45001e7b71b1b41ead825914f80",
+      "sourcePath": "assets/custom-wordle-icon.png"
+    },
+    {
+      "path": "fixtures/own/metadata/custom-wordle-1.png",
+      "bytes": 1008785,
+      "sha256": "dc60ed3d1f1fecf5ee8fa14be0f8bf39f114bb2d23231e9467e1411a8783345a",
+      "source": "https://github.com/almatkai/custom-wordle",
+      "revision": "5c7c4792f534a45001e7b71b1b41ead825914f80",
+      "sourcePath": "metadata/custom-wordle-1.png"
+    },
+    {
+      "path": "fixtures/own/metadata/custom-wordle-2.png",
+      "bytes": 1025018,
+      "sha256": "0aba97c4dea1e7758c3c47037b5109c42a1449db6e58851877b3bcf57e6296fb",
+      "source": "https://github.com/almatkai/custom-wordle",
+      "revision": "5c7c4792f534a45001e7b71b1b41ead825914f80",
+      "sourcePath": "metadata/custom-wordle-2.png"
+    },
+    {
+      "path": "fixtures/own/metadata/custom-wordle-3.png",
+      "bytes": 1020133,
+      "sha256": "f3e8e7575ed0da433a8c8c9cd4c7c847ebd8a08def2a51364cee415fa8d45052",
+      "source": "https://github.com/almatkai/custom-wordle",
+      "revision": "5c7c4792f534a45001e7b71b1b41ead825914f80",
+      "sourcePath": "metadata/custom-wordle-3.png"
+    },
+    {
+      "path": "fixtures/own/package-lock.json",
+      "bytes": 71045,
+      "sha256": "1c88c3b484f4616340b010641945cf67d9c6af31a7994fd05d05f99f9c678d50",
+      "source": "https://github.com/almatkai/custom-wordle",
+      "revision": "5c7c4792f534a45001e7b71b1b41ead825914f80",
+      "sourcePath": "package-lock.json"
+    },
+    {
+      "path": "fixtures/own/package.json",
+      "bytes": 1693,
+      "sha256": "70a27c344899ec82a77806b8fbf9bfb8c761eee325adf72265382b381504dd7c",
+      "source": "https://github.com/almatkai/custom-wordle",
+      "revision": "5c7c4792f534a45001e7b71b1b41ead825914f80",
+      "sourcePath": "package.json"
+    },
+    {
+      "path": "fixtures/own/raycast-env.d.ts",
+      "bytes": 749,
+      "sha256": "9cd6eb2ffc3baa3400a42bebd2c1c72f4325abed91585fd00e77a02e16d5912e",
+      "source": "https://github.com/almatkai/custom-wordle",
+      "revision": "5c7c4792f534a45001e7b71b1b41ead825914f80",
+      "sourcePath": "raycast-env.d.ts"
+    },
+    {
+      "path": "fixtures/own/src/create-custom-wordle.ts",
+      "bytes": 1517,
+      "sha256": "23fcf4b1802a2b34881d361b84692c1e9a33c0b987e1ad7565053ab8b3e631a2",
+      "source": "https://github.com/almatkai/custom-wordle",
+      "revision": "5c7c4792f534a45001e7b71b1b41ead825914f80",
+      "sourcePath": "src/create-custom-wordle.ts"
+    },
+    {
+      "path": "fixtures/own/test/smoke.test.ts",
+      "bytes": 455,
+      "sha256": "35d02c4cdd6f81025c31c2ec1d02f1c58b2b6fba6db8fd3b17e6a5f28d042f00",
+      "source": "https://github.com/almatkai/custom-wordle",
+      "revision": "5c7c4792f534a45001e7b71b1b41ead825914f80",
+      "sourcePath": "test/smoke.test.ts"
+    },
+    {
+      "path": "fixtures/own/tsconfig.json",
+      "bytes": 525,
+      "sha256": "bb151e8c2e5442f6f9e42b27c08d88b0f7d2c5c127268ce0aedab2ef964b1eee",
+      "source": "https://github.com/almatkai/custom-wordle",
+      "revision": "5c7c4792f534a45001e7b71b1b41ead825914f80",
+      "sourcePath": "tsconfig.json"
+    },
+    {
+      "path": "fixtures/beta/LICENSE",
+      "bytes": 10750,
+      "sha256": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "LICENSE"
+    },
+    {
+      "path": "fixtures/beta/docs/NATIVE_V2_FORMAT.md",
+      "bytes": 2593,
+      "sha256": "8bf9315ad047326dd6737587ca5491fc35faf5e3f92a2d9c63f596be0c8f7b7a",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "docs/NATIVE_V2_FORMAT.md"
+    },
+    {
+      "path": "fixtures/beta/package.json",
+      "bytes": 2909,
+      "sha256": "a9e41304960cd456d9f0b223110cd3abfd012c8899fa703acacee6b0d719faf7",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "package.json"
+    },
+    {
+      "path": "fixtures/beta/schemas/extension-v2.schema.json",
+      "bytes": 2420,
+      "sha256": "6d5afda1b652605982104bdf16d1547547b98dfd707a7b2969316406c49f32af",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "schemas/extension-v2.schema.json"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/action-runtime-overlay.tsx",
+      "bytes": 2915,
+      "sha256": "3eb4a59db0de59460ea8a2c7f4a1f6ec5b514a512f49352bf373db64ed58d604",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "src/renderer/src/raycast-api/action-runtime-overlay.tsx"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/action-runtime-registry.tsx",
+      "bytes": 692,
+      "sha256": "ffbad6f70410c6d2dcf4af217abe4ab297d69c0cae2c993263c008a423175e16",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "src/renderer/src/raycast-api/action-runtime-registry.tsx"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/action-runtime.tsx",
+      "bytes": 391,
+      "sha256": "6e7a41e3d1a7ee2028103683f08fb8ed20e4b2e5751e182afe9f8e189522a28b",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "src/renderer/src/raycast-api/action-runtime.tsx"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/detail-runtime.test.ts",
+      "bytes": 1028,
+      "sha256": "94acca3393a3636f7188a2ceac4a5e0429c2a0bc3433b02163602bdbe38beef4",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "src/renderer/src/raycast-api/detail-runtime.test.ts"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/detail-runtime.tsx",
+      "bytes": 23478,
+      "sha256": "32eecb50891e0f282bd3d78d8a38193ec24540bf70c3fdc8e43a1d368c97d54c",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "src/renderer/src/raycast-api/detail-runtime.tsx"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/form-runtime.test.ts",
+      "bytes": 3876,
+      "sha256": "3c449509be65d1ffc8949a11835fadeb6300b7d647898309b5abc5b2e94af112",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "src/renderer/src/raycast-api/form-runtime.test.ts"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/form-runtime.tsx",
+      "bytes": 21087,
+      "sha256": "8568d0ac5be03eea97d0def38067dbbbdce5ae97c36a51024857ef20dce299a6",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "src/renderer/src/raycast-api/form-runtime.tsx"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/grid-content.ts",
+      "bytes": 761,
+      "sha256": "71cf7151e1986389b550cf5a069383af79b88de2726176859496ac40fd8d9d41",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "src/renderer/src/raycast-api/grid-content.ts"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/grid-runtime.test.ts",
+      "bytes": 587,
+      "sha256": "633fcbbd5048f46d69388016481dfd54f800a8ff404810a556eb7ccfa3b626a0",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "src/renderer/src/raycast-api/grid-runtime.test.ts"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/grid-runtime.tsx",
+      "bytes": 15804,
+      "sha256": "9c19dffaf9596814315f61d8a66eaa3b914a138d8f10c860e01efd245d3e2e5b",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "src/renderer/src/raycast-api/grid-runtime.tsx"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/hooks.ts",
+      "bytes": 4050,
+      "sha256": "50bb0c3ad3721f600abe3091f3adba1c6515c2d639356b20c94c7f5cc96a492b",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "src/renderer/src/raycast-api/hooks.ts"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/index.tsx",
+      "bytes": 7419,
+      "sha256": "7fc8413a72b92e8f88b0939cd93f91624018fe0765baa1e71b38b86f8cc77a64",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "src/renderer/src/raycast-api/index.tsx"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/ipc-bridge.ts",
+      "bytes": 1110,
+      "sha256": "17784548760d476efebeae36d5b03e9c50a69c2da2b92ce0163cabbfe9566d97",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "src/renderer/src/raycast-api/ipc-bridge.ts"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/list-runtime.tsx",
+      "bytes": 32174,
+      "sha256": "c7e253c34ce6e0a5132cab96bf1f0388393faca79ff57c3fdc7956f377a0ab0f",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "src/renderer/src/raycast-api/list-runtime.tsx"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/native-v2-visuals.test.ts",
+      "bytes": 3347,
+      "sha256": "afa00333ff5293015fc1d6c87dc429ef9fdb6322a89887c6ad7b6b5b49fcb182",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "src/renderer/src/raycast-api/native-v2-visuals.test.ts"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/common.rs",
+      "bytes": 7627,
+      "sha256": "280a0a2f0dd04a8570b320aafc0c3ece0f5de8ddb21c363645567d6a35d84da7",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "src-tauri/src/native_core/common.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/native.rs",
+      "bytes": 14551,
+      "sha256": "3192be6beccc110cd6daa22db412e0f90685957ec51b3c71103b78e239978691",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "src-tauri/src/native_core/extensions/native.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/native_tests.rs",
+      "bytes": 23475,
+      "sha256": "75c4bf5ec47d0d64d3d8e51db0989e708d1474b1bb41a667098bd645394145fc",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "src-tauri/src/native_core/extensions/native_tests.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_catalog.json",
+      "bytes": 71862,
+      "sha256": "6cba59a7a6ec10dbe985c8fa4f4be82e4b2495b3718fd9a9a8dd7b3169e977e7",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "src-tauri/src/native_core/extensions/v2_catalog.json"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_catalog.rs",
+      "bytes": 6839,
+      "sha256": "651a16df484f42a827ac69e209e80d09cad868232d1953d241652a4a39481e16",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "src-tauri/src/native_core/extensions/v2_catalog.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_runtime.rs",
+      "bytes": 3110,
+      "sha256": "df96675ba916a3d70b8e0e5da76f7a9422d238cc3fbe3a5a6178fef21662a6a0",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "src-tauri/src/native_core/extensions/v2_runtime.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_sdk.rs",
+      "bytes": 6755,
+      "sha256": "4f987346f863db9a7bd6aa1d5a99e149925dc69a44d629727ccc80a567cd27c2",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "src-tauri/src/native_core/extensions/v2_sdk.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/platform.rs",
+      "bytes": 28906,
+      "sha256": "75fa7ce4204edbbdb0f4a5410895b32239939b707256c484dc3c4f9de390b5a1",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "src-tauri/src/native_core/platform.rs"
+    },
+    {
+      "path": "fixtures/original/REPOSITORY-LICENSE",
+      "bytes": 1064,
+      "sha256": "7f727f8b20cdd0e65f84e70b9cac2fce337dcecee4dc88955eb012ea27f02755",
+      "source": "https://github.com/raycast/extensions",
+      "revision": "6734d85992290066fd31a7f5bee3cca3d3545a1a",
+      "sourcePath": "LICENSE"
+    },
+    {
+      "path": "fixtures/original/assets/custom-wordle-icon.png",
+      "bytes": 19722,
+      "sha256": "d4033620dc53983df5721e784708f14c93d5fdc84ba64f882a14c71566278705",
+      "source": "https://github.com/raycast/extensions",
+      "revision": "6734d85992290066fd31a7f5bee3cca3d3545a1a",
+      "sourcePath": "extensions/custom-wordle/assets/custom-wordle-icon.png"
+    },
+    {
+      "path": "fixtures/original/package.json",
+      "bytes": 1549,
+      "sha256": "dc77261bb3649b20733ed6c5a38db8ebf9db671066893403c38bc703bd3fbd6d",
+      "source": "https://github.com/raycast/extensions",
+      "revision": "6734d85992290066fd31a7f5bee3cca3d3545a1a",
+      "sourcePath": "extensions/custom-wordle/package.json"
+    },
+    {
+      "path": "fixtures/original/src/create-custom-wordle.ts",
+      "bytes": 1517,
+      "sha256": "23fcf4b1802a2b34881d361b84692c1e9a33c0b987e1ad7565053ab8b3e631a2",
+      "source": "https://github.com/raycast/extensions",
+      "revision": "6734d85992290066fd31a7f5bee3cca3d3545a1a",
+      "sourcePath": "extensions/custom-wordle/src/create-custom-wordle.ts"
+    },
+    {
+      "path": "fixtures/libraries/typescript/LICENSE.txt",
+      "bytes": 9197,
+      "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47",
+      "source": "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz",
+      "integrity": "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==",
+      "version": "5.9.3",
+      "sourcePath": "LICENSE.txt"
+    },
+    {
+      "path": "fixtures/libraries/typescript/ThirdPartyNoticeText.txt",
+      "bytes": 37824,
+      "sha256": "1af3c68039c57e539422da82a4faada506ce6d0ea6f90e0b699d02dbcdb7a90c",
+      "source": "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz",
+      "integrity": "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==",
+      "version": "5.9.3",
+      "sourcePath": "ThirdPartyNoticeText.txt"
+    },
+    {
+      "path": "fixtures/libraries/typescript/lib/typescript.js",
+      "bytes": 9112572,
+      "sha256": "3ae902c92cc44dace175c0e69e13a4b0899f6983c6121d76b9ab8dd5795e7675",
+      "source": "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz",
+      "integrity": "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==",
+      "version": "5.9.3",
+      "sourcePath": "lib/typescript.js"
+    },
+    {
+      "path": "fixtures/libraries/typescript/package.json",
+      "bytes": 3620,
+      "sha256": "822ef7ca6452205657b6288b066481ecf508bfbf43455d715cf7d3ec457561e6",
+      "source": "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz",
+      "integrity": "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==",
+      "version": "5.9.3",
+      "sourcePath": "package.json"
+    },
+    {
+      "path": "assets/custom-wordle-icon.png",
+      "bytes": 19722,
+      "sha256": "d4033620dc53983df5721e784708f14c93d5fdc84ba64f882a14c71566278705",
+      "copyOf": "fixtures/original/assets/custom-wordle-icon.png"
+    },
+    {
+      "path": "licenses/Raycast-MIT.txt",
+      "bytes": 1064,
+      "sha256": "7f727f8b20cdd0e65f84e70b9cac2fce337dcecee4dc88955eb012ea27f02755",
+      "copyOf": "fixtures/original/REPOSITORY-LICENSE"
+    },
+    {
+      "path": "licenses/Tezbar-Apache-2.0.txt",
+      "bytes": 10750,
+      "sha256": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf",
+      "copyOf": "fixtures/beta/LICENSE"
+    },
+    {
+      "path": "licenses/own-LICENSE.raw",
+      "bytes": 1087,
+      "sha256": "1d7dbdbcd4fe14dfa08334fab20bffad23c1290f195792a3a4420dadf9912f81",
+      "copyOf": "fixtures/own/LICENSE"
+    },
+    {
+      "path": "fixtures/beta/src/shared/extensionRuntime.ts",
+      "bytes": 3838,
+      "sha256": "837b804856baa6b16ebda080920af456268fefcffa7a1c3e2964b95d697ee387",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "src/shared/extensionRuntime.ts"
+    },
+    {
+      "path": "fixtures/beta/src/shared/extensions.ts",
+      "bytes": 1727,
+      "sha256": "98f097532195d4566d5be1b237bb08cf78a1ba309196be20c39c8c090b1d3e65",
+      "source": "local-git:Tezbar@fd300e276356587726566026f072563eb9c34cb1",
+      "revision": "fd300e276356587726566026f072563eb9c34cb1",
+      "sourcePath": "src/shared/extensions.ts"
+    },
+    {
+      "path": "fixtures/libraries/typescript/lib/lib.es5.d.ts",
+      "bytes": 218439,
+      "sha256": "c430d44666289dae81f30fa7b2edebf186ecc91a2d4c71266ea6ae76388792e1",
+      "source": "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz",
+      "integrity": "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==",
+      "version": "5.9.3",
+      "sourcePath": "lib/lib.es5.d.ts"
+    },
+    {
+      "path": "fixtures/libraries/typescript/lib/lib.decorators.d.ts",
+      "bytes": 13192,
+      "sha256": "8e7f8264d0fb4c5339605a15daadb037bf238c10b654bb3eee14208f860a32ea",
+      "source": "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz",
+      "integrity": "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==",
+      "version": "5.9.3",
+      "sourcePath": "lib/lib.decorators.d.ts"
+    },
+    {
+      "path": "fixtures/libraries/typescript/lib/lib.decorators.legacy.d.ts",
+      "bytes": 1326,
+      "sha256": "782dec38049b92d4e85c1585fbea5474a219c6984a35b004963b00beb1aab538",
+      "source": "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz",
+      "integrity": "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==",
+      "version": "5.9.3",
+      "sourcePath": "lib/lib.decorators.legacy.d.ts"
+    }
+  ]
+}
