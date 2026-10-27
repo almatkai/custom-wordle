@@ -1,0 +1,68 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "custom-wordle",
+  "title": "Custom Wordle",
+  "description": "Get a link to play wordle with your own word",
+  "icon": "assets/custom-wordle-icon.png",
+  "author": "almatkai",
+  "categories": [
+    "Fun"
+  ],
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "create-custom-wordle",
+      "title": "Create Custom Wordle",
+      "description": "Create a wordle with your own word and share it with your friends to have them guess your word.",
+      "mode": "no-view",
+      "arguments": [
+        {
+          "name": "word",
+          "type": "text",
+          "placeholder": "Word to be guessed",
+          "required": true
+        }
+      ],
+      "platforms": [
+        "macOS",
+        "Windows"
+      ]
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.104.1",
+    "@raycast/utils": "^2.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tsx": "^4.22.4",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test test/*.test.ts"
+  },
+  "id": "com.tezbar.custom-wordle",
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "version": "0.1.0",
+  "tezbar": {
+    "schemaVersion": 1,
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "linuxStatus": "coming-soon",
+    "repository": "https://github.com/almatkai/custom-wordle",
+    "upstream": {
+      "repository": "https://github.com/raycast/extensions",
+      "path": "extensions/custom-wordle",
+      "commit": "6734d85992290066fd31a7f5bee3cca3d3545a1a"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+[package]
+name = "tezbar-custom-wordle-v2"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+description = "Offline Custom Wordle engine and compiled-in Tezbar Native V2 adapter"
+license = "MIT AND Apache-2.0"
+publish = false
+repository = "https://github.com/almatkai/custom-wordle"
+include = ["/src/**", "/tests/**", "/examples/**", "/scripts/**", "/adapter.rs", "/checks/**", "/fixtures/beta/**", "/fixtures/original/**", "/fixtures/libraries/**", "/assets/**", "/licenses/**", "/README.md", "/INTEGRATION.md", "/VALIDATION.md", "/NOTICES.md", "/manifest.json", "/provenance.json", "/Cargo.toml", "/Cargo.lock", "/.gitignore", "/fixtures/own/LICENSE", "/fixtures/own/CHANGELOG.md", "/fixtures/own/raycast-env.d.ts", "/fixtures/own/README.md", "/fixtures/own/.gitignore", "/fixtures/own/package-lock.json", "/fixtures/own/package.json", "/fixtures/own/.prettierrc", "/fixtures/own/tsconfig.json", "/fixtures/own/.eslintrc.json", "/fixtures/own/test/smoke.test.ts", "/fixtures/own/assets/custom-wordle-icon.png", "/fixtures/own/metadata/custom-wordle-3.png", "/fixtures/own/metadata/custom-wordle-2.png", "/fixtures/own/metadata/custom-wordle-1.png", "/fixtures/own/src/create-custom-wordle.ts"]
+
+[dependencies]
+serde_json = "=1.0.140"
+
+[[example]]
+name = "oracle"
+path = "examples/oracle.rs"

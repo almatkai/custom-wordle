@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 2,
+  "id": "com.tezbar.native.custom-wordle",
+  "slug": "custom-wordle",
+  "name": "Custom Wordle",
+  "version": "0.1.0",
+  "description": "Get a link to play wordle with your own word \u2014 original Raycast extension by pallav_agarwal; own V1 maintained by almatkai.",
+  "runtime": "rust",
+  "replaces": [
+    "raycast.custom-wordle"
+  ],
+  "icon": "/extensions/icons/custom-wordle.png",
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "preferences": [],
+  "commands": [
+    {
+      "name": "create-custom-wordle",
+      "title": "Create Custom Wordle",
+      "description": "Create a wordle with your own word and share it with your friends to have them guess your word.",
+      "mode": "no-view",
+      "arguments": [
+        {
+          "name": "word",
+          "type": "text",
+          "placeholder": "Word to be guessed",
+          "required": true
+        }
+      ],
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust"
+    }
+  ],
+  "verification": [
+    {
+      "platform": "macOS",
+      "state": "not-run",
+      "note": "Host registration/rebuild and real desktop UI, clipboard and browser QA not run."
+    },
+    {
+      "platform": "Windows",
+      "state": "not-run",
+      "note": "Host registration/rebuild and real desktop UI, clipboard and browser QA not run."
+    }
+  ]
+}

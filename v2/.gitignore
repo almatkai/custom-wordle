@@ -1,0 +1,10 @@
+/target/
+/adapter-check/
+/fixtures/own/node_modules/
+/fixtures/own/dist/
+/fixtures/own/.sc-build/
+/reports/
+# Root dist/ rule must not hide vendored validation libraries.
+!fixtures/libraries/
+!fixtures/libraries/**/
+!fixtures/libraries/**/*
